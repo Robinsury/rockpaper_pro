@@ -55,7 +55,7 @@ function computerHands(playerChoice,computerChoice){
         return;
     }
     if(playerChoice==='rock'){
-        if(computerChoice==='scissors'){
+        if(computerChoice==='scissor'){
             winner.textContent='player wins';
             pScore++;
             updatescore();
@@ -69,7 +69,7 @@ function computerHands(playerChoice,computerChoice){
         }
     }
     if(playerChoice==='paper'){
-        if(computerChoice==='scissors'){
+        if(computerChoice==='scissor'){
             winner.textContent='player wins';
             cScore++;
             updatescore();
@@ -82,7 +82,7 @@ function computerHands(playerChoice,computerChoice){
             return;
         }
     }
-    if(playerChoice==='scissors'){
+    if(playerChoice==='scissor'){
         if(computerChoice==='rock'){
             winner.textContent='player wins';
             cScore++;
